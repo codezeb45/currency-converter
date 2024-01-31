@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    box-sizing: border-box;
+    color: black;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {    
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.4);
+    border: 0.1rem solid black;
+    padding: 3rem;
+}
+.container #head {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    background: url("pexels-vlad-alexandru-popa-1402787.jpg");
+    background-clip: text;
+    color: transparent;
+}
+.container input {
+    width: 100%;
+    height: 2rem;
+    border: 0.1rem solid rgb(115, 115, 115);
+    border-radius: 0.2rem;
+    padding-left: 0.6rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.container i {
+    margin-top: 1rem;
+}
+.container .drop {
+    width: 103%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .from,.container .to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border-radius: 0.2rem;
+    border: 0.1rem solid rgb(115, 115, 115);
+    padding: 0.1rem;
+}
+.container .from img,.container .to img {
+    height: 2rem;
+}
+.from select,.to select {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.from select option,.to select option {
+    border-radius: 0.2rem;
+    color: white;
+    background-color: black;
+}
+form #msg {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+.row {
+    width: 100%;
+    text-align: center;
+}
+form #exchBtn {
+    height: 2.3rem;
+    width: 80%;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(7, 68, 7);
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
